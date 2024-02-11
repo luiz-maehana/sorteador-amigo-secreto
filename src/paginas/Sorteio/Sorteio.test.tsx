@@ -42,7 +42,7 @@ describe('A Página de Sorteio', () => {
 
     const opcoes = screen.queryAllByRole('option')
 
-    expect(opcoes).toHaveLength(participantes.length)
+    expect(opcoes).toHaveLength(participantes.length + 1)
 
   })
 
